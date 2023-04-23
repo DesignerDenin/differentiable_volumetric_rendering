@@ -1,0 +1,10 @@
+# ninja log v5
+0	160	1679844420059338225	/Users/deninpaul/Development/differentiable_volumetric_rendering/build/temp.macosx-11.1-arm64-cpython-310/im2mesh/utils/libkdtree/pykdtree/_kdtree_core.o	fb09e53702143814
+0	584	1679844579170601290	/Users/deninpaul/Development/differentiable_volumetric_rendering/build/temp.macosx-11.1-arm64-cpython-310/im2mesh/utils/libkdtree/pykdtree/kdtree.o	2fbe7c0481baa1e4
+0	274	1679844579524150290	/Users/deninpaul/Development/differentiable_volumetric_rendering/build/temp.macosx-11.1-arm64-cpython-310/im2mesh/utils/libmcubes/marchingcubes.o	769d077063039b3a
+0	509	1679844579758417976	/Users/deninpaul/Development/differentiable_volumetric_rendering/build/temp.macosx-11.1-arm64-cpython-310/im2mesh/utils/libmcubes/mcubes.o	89a5363fd1ed67c0
+2	469	1679844646501224826	/Users/deninpaul/Development/differentiable_volumetric_rendering/build/temp.macosx-11.1-arm64-cpython-310/im2mesh/utils/libmcubes/pywrapper.o	bbd97ba74e82bb26
+0	1184	1679844647769534326	/Users/deninpaul/Development/differentiable_volumetric_rendering/build/temp.macosx-11.1-arm64-cpython-310/im2mesh/utils/libmesh/triangle_hash.o	8e067ca67660afbd
+0	1418	1679844649271987845	/Users/deninpaul/Development/differentiable_volumetric_rendering/build/temp.macosx-11.1-arm64-cpython-310/im2mesh/utils/libmise/mise.o	ab54347700c5e247
+0	1585	1679844650938719790	/Users/deninpaul/Development/differentiable_volumetric_rendering/build/temp.macosx-11.1-arm64-cpython-310/im2mesh/utils/libsimplify/simplify_mesh.o	8d85cccb640b0f83
+0	838	1679844701473139279	/Users/deninpaul/Development/differentiable_volumetric_rendering/build/temp.macosx-11.1-arm64-cpython-310/im2mesh/utils/libvoxelize/voxelize.o	28cb64ae91680ec3

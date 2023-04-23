@@ -95,7 +95,7 @@ PyObject* marching_cubes(PyArrayObject* arr, double isovalue)
     // Prepare data.
     npy_intp* shape = PyArray_DIMS(arr);
     double lower[3] = {0,0,0};
-    double upper[3] = {shape[0]-1, shape[1]-1, shape[2]-1};
+    double upper[3] = {static_cast<double>(shape[0]-1), static_cast<double>(shape[1]-1), static_cast<double>(shape[2]-1)};
     long numx = upper[0] - lower[0] + 1;
     long numy = upper[1] - lower[1] + 1;
     long numz = upper[2] - lower[2] + 1;
@@ -134,7 +134,7 @@ PyObject* marching_cubes2(PyArrayObject* arr, double isovalue)
     // Prepare data.
     npy_intp* shape = PyArray_DIMS(arr);
     double lower[3] = {0,0,0};
-    double upper[3] = {shape[0]-1, shape[1]-1, shape[2]-1};
+    double upper[3] = {static_cast<double>(shape[0]-1), static_cast<double>(shape[1]-1), static_cast<double>(shape[2]-1)};
     long numx = upper[0] - lower[0] + 1;
     long numy = upper[1] - lower[1] + 1;
     long numz = upper[2] - lower[2] + 1;
@@ -173,7 +173,7 @@ PyObject* marching_cubes3(PyArrayObject* arr, double isovalue)
     // Prepare data.
     npy_intp* shape = PyArray_DIMS(arr);
     double lower[3] = {0,0,0};
-    double upper[3] = {shape[0]-1, shape[1]-1, shape[2]-1};
+    double upper[3] = {static_cast<double>(shape[0]-1), static_cast<double>(shape[1]-1), static_cast<double>(shape[2]-1)};
     long numx = upper[0] - lower[0] + 1;
     long numy = upper[1] - lower[1] + 1;
     long numz = upper[2] - lower[2] + 1;

@@ -73,6 +73,8 @@ voxelize_module = Extension(
     sources=[
         'im2mesh/utils/libvoxelize/voxelize.pyx'
     ],
+    language='c',
+    extra_compile_args=['-std=c99', '-O3', '-fopenmp'],
     libraries=['m'] if platform.system() == 'Linux' else []  # Unix-like specific
 )
 
